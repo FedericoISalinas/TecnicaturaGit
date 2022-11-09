@@ -1,0 +1,26 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>310</x><y>140</y><w>210</w><h>110</h></coordinates><panel_attributes>&lt;&lt;Vehiculo&gt;&gt;
+--
+-color: str
+-ruedas: int
+--
+__init__(color, ruedas)
+__str__()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>370</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Auto&gt;&gt;
+-velocidad: int
+--
+-velocidad: int
+--
+__init__(color, ruedas, velocidad)
+__str__()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>370</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Bicicleta&gt;&gt;
+-tipo: str
+--
+-velocidad: int
+--
+__init__(color, ruedas, tipo)
+__str__()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>300</y><w>180</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>300</y><w>180</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>240</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>310</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>310</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>

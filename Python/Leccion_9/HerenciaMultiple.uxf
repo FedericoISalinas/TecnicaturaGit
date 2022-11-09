@@ -1,0 +1,15 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>120</x><y>150</y><w>210</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Figura Geometrica&gt;&gt;
+--
++alto
++ancho
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>150</y><w>210</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Color&gt;&gt;
+--
++color
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>380</y><w>210</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Cuadrado&gt;&gt;
+--
++area()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>210</y><w>240</w><h>180</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;someStereotype&gt;&gt;</panel_attributes><additional_attributes>10;10;220;160</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>210</y><w>220</w><h>180</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;someStereotype&gt;&gt;</panel_attributes><additional_attributes>10;160;200;10</additional_attributes></element></diagram>
