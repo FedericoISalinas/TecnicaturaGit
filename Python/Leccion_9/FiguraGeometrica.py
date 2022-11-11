@@ -1,9 +1,14 @@
 #Clase padre
 class FiguraGeometrica:
     def __init__(self, ancho, alto):
-        self._ancho = ancho
-        self._alto = alto
-    
+        if 0 < ancho < 10:
+            self._ancho = ancho
+        else:
+            self._ancho = 0
+        if 0 < alto < 10:
+            self._alto = alto
+        else:
+            self._alto = "No Disponible"
     @property
     def ancho(self):
         return self._ancho
