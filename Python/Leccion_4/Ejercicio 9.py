@@ -1,27 +1,16 @@
-import math # importamos la clase math para hacer uso de la funcion raiz cuadrada
-# Dada la siguiente tupla
-
-tupla = (13, 1, 8, 3, 2, 5, 8) 
-
-# crear una lista que solo incluya los numeros menores a 5 
-# e imprima por consola [1, 3, 2]
-
-lista = []
-
-# filtramos los elementos menores a 5 de la tupla
-
-for elemento in tupla:
-    if elemento < 5:
-        lista.append(elemento)
-print(lista)
-
-
-# Ejercicio de matematicas
-# Raiz cuadrada
-
-numero = int(input("Digite un numero positivo "))
-
-while numero < 0:
-    print("Error, deberia ser un numero positivo")
-    numero = int(input("Digite un numero positivo"))
-print(f"\nSu raiz cuadrada es : {math.sqrt(numero):.2f}")
+# Ejercicio 9: Mostrar una frase sin espacios y contar su longitud
+# Hacer un programa donde el usuario ingrese una frase, se le
+# devolverá la misma frase pero sin espacios en blanco, y
+# además un contador de cuántos caracteres tiene la frase
+# (sin contar los espacios en blanco)
+# Ejemplo:      frase = vivir por siempre en paz
+#               frase final = vivirporsiempreenpaz
+#               Nª de caracteres = 21
+frase1 = input("Digite un frase: ")
+frase2 = " "
+for i in frase1:
+    if i != " ":
+        frase2 += i
+frase1 = frase2
+print(f'\nFrase final: {frase1}')
+print(f'Nª de caracteres: {len(frase1)}')

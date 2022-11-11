@@ -1,29 +1,21 @@
-# operaciones en conjunto con listas
-# escriba un programa que tenga 2 listas y que a continuacion 
-# cree las siguientes listas (en las que no deben haber repeticion)
-
-# 1 lista de palabras que aparecen en las listas
-# 2 lista de palabars que aparecen en la primera lista solamente
-# 3 lista de palabras que aparecen en la segunda lista solamente
-# 4 lista de palabras que aparecen en ambas listas
-
-lista1 = [1, 3, 2, 4, 6, 5, 5, 4, 2]
-
-lista2 = [5, 5, 7, 6, 6, 7, 8]
-print("")
-
-# eliminamos los elementos repetidos de cada lista
-
-conjunto1 = set(lista1)
-conjunto2 = set(lista2)
-
-union = list(conjunto1 | conjunto2) # unimos ambos conjuntos
-solo1 = list(conjunto1 - conjunto2) # solo muestra el conjunto1
-solo2 = list(conjunto2 - conjunto1) # solo muestra el conjunto2
-coinciden = list(conjunto1 & conjunto2) # mostramos los elementos que coinciden en ambas listas
-solo2.sort()
-
-print(f"La lista de palabras que aparecen en las listas son: {union}")
-print(f"La lista de palabras que aparecen en al primera lista solamente son: {solo1}")
-print(f"La lista de palabras que aparecen en la segunda lista solamente son: {solo2}")
-print(f"La lista de palabras que aparecen en ambas listas son: {coinciden}")
+# Ejercicio 7: Juego adivina el número
+# Realizar un juego para adivinar un número. Para ello se debe
+# generar un número aleatorio entre 1 - 100, y luego ir pidiendo
+# números indicando "es mayor" o "es menor" según sea mayor o menor
+# con respecto a N. El proceso termina cuando el usuario acierta
+# y allí se debe mostrar el número de intentos.
+import random
+print("\t.:Juego Adivina el número:.")
+aleatorio = random.randint(0, 100) # Toma de 0 a 100 literal, generamos un número aleatorio
+contador = 0
+while True:
+    numero = int(input("Digite un número: "))
+    contador += 1
+    if numero > aleatorio:
+        print("\tNo es el número, digite un número menor")
+    elif numero < aleatorio:
+        print("\tNo es el número digite un número mayor")
+    else:
+        print(f"FELICIDADES, acabas de adivinar el número {aleatorio}")
+        break # Rompe el ciclo y el bucle
+print(f"\nNúmero de intentos: {contador}")

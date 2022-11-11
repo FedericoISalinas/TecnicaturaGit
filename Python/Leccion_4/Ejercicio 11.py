@@ -1,17 +1,44 @@
-# Modificar los elementos de una lista
-# Llenar una lista con numeros del 1 al 10, luego modificar los elementos de la lista
-# multiplicandolos por un valor ingresado por el usuario
+# Ejercicio 14: agenda telefonica
+# hacer un programa que simule una agenda de contactos. 
+# crear un diccionario donde la clave  sea el valor del nombre del
+# usuario y el valor sea el telefono, el programa tendra el 
+# siguiente menu de opciones:
+#      1. Nuevo contacto
+#      2. Borrar contacto
+#      3. Ver contactos existentes
+#      4. Salir
 
-lista = list(range(1, 11))
-print("Lista original")
-for i in lista:
-    print(i, end="-")
-valor = int(input("\nDigite un valor a multiplicar: "))
-
-# Multiplicamos todos los elementos de la lista
-
-for indice, i in enumerate(lista): # enumerate me deja manipular los elementos que recorre en la lista, porque el i solamente lo muestra
-    lista[indice] *= valor # el iterador solo recorre los indices, en esta linea se multiplica
-print(f"\nLista final con los elementos multiplicados por el {valor}")
-for i in lista:
-    print(i, end="-")
+agenda = {}
+while True:
+    print("\t. :MENU: .")
+    print("1. Nuevo contacto")
+    print("2. Borrar contacto")
+    print("3. Ver contactos existentes")
+    print("4. Salir")
+    
+    opcion = int(input("Digite una opcion de menu :\n"))
+    if opcion == 1:
+        nombre = input("Digite el nombre del contacto:\n")
+        telefono = input("Digite el numero de telefono:\n")
+        if nombre not in agenda:
+            agenda[nombre] = telefono
+            print("Contacto agregado exitosamente")
+        else:
+            print("Este nombre de contacto ya existe")
+    elif opcion == 2:
+        nombre = input("Cual es el nombre del contacto:\n ")
+        if nombre in agenda:
+            del (agenda[nombre])
+            print("Se ha eliminado el contacto requerido")
+        else:
+            print("Este contacto no existe en la agenda")
+    elif opcion == 3:
+        print("Agenda de contactos")
+        for clave, valor in agenda.items():
+            print(f"Nombre: {clave}, Telefono: {valor}")
+    elif opcion == 4:
+        print("Gracias por utilizar su agenda de contactos")
+        break
+    else: 
+        print("Opcion no valida")
+    print("")
