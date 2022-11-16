@@ -1,4 +1,4 @@
-from Constantes import *
+from Constantes import * # con * importamos todo
 from Constantes import Matematicas as Mate # podemos cambiar el nombre a la clase con "as"
 print(MI_CONSTANTE)
 
