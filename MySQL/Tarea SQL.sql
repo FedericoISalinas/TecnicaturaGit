@@ -1,0 +1,1 @@
+SELECT distinct (Apellido) from base1.usuario;
