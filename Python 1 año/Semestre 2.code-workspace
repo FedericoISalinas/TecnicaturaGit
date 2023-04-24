@@ -1,20 +1,11 @@
 {
 	"folders": [
 		{
-			"name": "Python 1 año",
-			"path": "."
-		},
-		{
 			"name": "Python 2 año",
 			"path": "../Python 2 año"
 		},
 		{
-			"name": "Javascript",
-			"path": "../Javascript"
-		},
-		{
-			"name": "Javascript 2 año",
-			"path": "../Javascript 2 año"
+			"path": "../../../ProyectoLaProgramaneta"
 		}
 	],
 	"settings": {
