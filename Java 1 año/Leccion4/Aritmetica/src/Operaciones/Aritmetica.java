@@ -1,5 +1,5 @@
 
-package Operaciones;
+package Leccion4.Aritmetica.src.Operaciones;
 
 public class Aritmetica {
     //Atributos de la clase

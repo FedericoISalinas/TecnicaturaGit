@@ -1,5 +1,5 @@
 
-package ejerciciociclowhite;
+package Leccion2.EjercicioCicloWhite.src.ejerciciociclowhite;
 
 
 

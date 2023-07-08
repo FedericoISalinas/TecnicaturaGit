@@ -1,0 +1,4 @@
+Seguimos trabajando en la clase 05-03 de la semana 6 para terminar de ver:
+    -Heredar métodos
+    -Sobreescritura
+    -Clase Object, toString, Sobreescritura, y Polimorfismo

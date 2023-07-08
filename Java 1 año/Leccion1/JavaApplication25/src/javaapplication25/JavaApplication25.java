@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication25;
+package Leccion1.JavaApplication25.src.javaapplication25;
 
 /**
  *
@@ -14,6 +14,6 @@ public class JavaApplication25 {
     /**
      * @param args the command line arguments
      */
-   psvm 
+   
     
 }

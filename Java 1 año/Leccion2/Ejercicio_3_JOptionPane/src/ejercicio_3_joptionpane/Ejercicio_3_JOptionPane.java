@@ -1,5 +1,5 @@
 
-package ejercicio_3_joptionpane;
+package Leccion2.Ejercicio_3_JOptionPane.src.ejercicio_3_joptionpane;
 
 import javax.swing.JOptionPane;
 

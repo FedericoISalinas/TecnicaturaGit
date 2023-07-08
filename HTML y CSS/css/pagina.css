@@ -1,0 +1,34 @@
+header{
+    width: 1000px;
+    height: 200px;
+    background-color: coral ;
+    margin: 20px;
+    border: 5px solid orange;
+    padding: 20px;
+}
+
+
+body {
+        background-color: blueviolet;
+}
+
+#caja{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+}
+
+.grupo{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    margin: 16px;
+}
+
+#logo{
+    width: 800px;
+    height: 68px;
+    background-color: cornflowerblue;
+    border: 5px solid white ;
+    border-radius: 10px;
+}

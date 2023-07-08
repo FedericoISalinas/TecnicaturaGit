@@ -1,11 +1,11 @@
 
-package Operaciones;
+package Leccion4.Aritmetica.src.Operaciones;
 
 
 public class PruebaAritmetica {
    public static void main(String[] args) {
-        var a = 10; //variables locales
-        int b = 7; //Memoria stack
+        //var a = 10; //variables locales
+        //int b = 7; //Memoria stack
         miMetodo(); //Llamamos el método nuevo
         Aritmetica aritmetica1 = new Aritmetica();
         aritmetica1.a = 3;

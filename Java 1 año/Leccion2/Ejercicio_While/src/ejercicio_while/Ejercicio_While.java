@@ -1,5 +1,5 @@
 
-package ejercicio_while;
+package Leccion2.Ejercicio_While.src.ejercicio_while;
 
 
 public class Ejercicio_While {

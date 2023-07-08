@@ -1,5 +1,5 @@
 
-package Clases;
+package Leccion2.Persona.src.Clases;
 
 
 public class Persona {

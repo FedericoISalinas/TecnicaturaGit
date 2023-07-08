@@ -5,11 +5,21 @@
 			"path": "../Python 2 año"
 		},
 		{
-			"path": "../../../ProyectoLaProgramaneta"
+			"path": "../Java 1 año"
+		},
+		{
+			"path": "../Java 2 año"
 		}
 	],
 	"settings": {
 		"liveServer.settings.multiRootWorkspaceName": "Diseño web",
-		"git.ignoreLimitWarning": true
+		"git.ignoreLimitWarning": true,
+		"java.project.sourcePaths": [
+			"Leccion_2/ArgumentosVariables/src/test",
+			"."
+		],
+		"cSpell.enableFiletypes": [
+			"!java"
+		]
 	}
 }
