@@ -1,0 +1,7 @@
+Seguimos trabajando en la clase 05-03 de la clase 6 para terminar de ver: 
+      -Palabra static con métodos
+      -Atributos estáticos
+      -Atributos estáticos vs no estáticos
+      _Uso de la palabra static
+      -Creacion de constatntes estaticas 
+                                                  
